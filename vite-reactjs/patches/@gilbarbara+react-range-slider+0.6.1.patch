@@ -1,0 +1,126 @@
+diff --git a/node_modules/@gilbarbara/react-range-slider/LICENSE b/node_modules/@gilbarbara/react-range-slider/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/README.md b/node_modules/@gilbarbara/react-range-slider/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/index.d.ts b/node_modules/@gilbarbara/react-range-slider/esm/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/index.js b/node_modules/@gilbarbara/react-range-slider/esm/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/index.js.map b/node_modules/@gilbarbara/react-range-slider/esm/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/styles.d.ts b/node_modules/@gilbarbara/react-range-slider/esm/styles.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/styles.js b/node_modules/@gilbarbara/react-range-slider/esm/styles.js
+old mode 100644
+new mode 100755
+index 5c40664..2d3fd1f
+--- a/node_modules/@gilbarbara/react-range-slider/esm/styles.js
++++ b/node_modules/@gilbarbara/react-range-slider/esm/styles.js
+@@ -9,7 +9,7 @@ var __assign = (this && this.__assign) || function () {
+     };
+     return __assign.apply(this, arguments);
+ };
+-import * as deepmerge from 'deepmerge';
++import deepmerge from 'deepmerge';
+ import { num } from './utils';
+ var defaultOptions = {
+     height: '20px',
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/styles.js.map b/node_modules/@gilbarbara/react-range-slider/esm/styles.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/types.d.ts b/node_modules/@gilbarbara/react-range-slider/esm/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/types.js b/node_modules/@gilbarbara/react-range-slider/esm/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/types.js.map b/node_modules/@gilbarbara/react-range-slider/esm/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/utils.d.ts b/node_modules/@gilbarbara/react-range-slider/esm/utils.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/utils.js b/node_modules/@gilbarbara/react-range-slider/esm/utils.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/esm/utils.js.map b/node_modules/@gilbarbara/react-range-slider/esm/utils.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/index.d.ts b/node_modules/@gilbarbara/react-range-slider/lib/index.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/index.js b/node_modules/@gilbarbara/react-range-slider/lib/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/index.js.map b/node_modules/@gilbarbara/react-range-slider/lib/index.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/styles.d.ts b/node_modules/@gilbarbara/react-range-slider/lib/styles.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/styles.js b/node_modules/@gilbarbara/react-range-slider/lib/styles.js
+old mode 100644
+new mode 100755
+index 72549c9..7296898
+--- a/node_modules/@gilbarbara/react-range-slider/lib/styles.js
++++ b/node_modules/@gilbarbara/react-range-slider/lib/styles.js
+@@ -11,7 +11,7 @@ var __assign = (this && this.__assign) || function () {
+     return __assign.apply(this, arguments);
+ };
+ Object.defineProperty(exports, "__esModule", { value: true });
+-var deepmerge = require("deepmerge");
++var deepmerge = require("deepmerge").default;
+ var utils_1 = require("./utils");
+ var defaultOptions = {
+     height: '20px',
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/styles.js.map b/node_modules/@gilbarbara/react-range-slider/lib/styles.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/types.d.ts b/node_modules/@gilbarbara/react-range-slider/lib/types.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/types.js b/node_modules/@gilbarbara/react-range-slider/lib/types.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/types.js.map b/node_modules/@gilbarbara/react-range-slider/lib/types.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/utils.d.ts b/node_modules/@gilbarbara/react-range-slider/lib/utils.d.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/utils.js b/node_modules/@gilbarbara/react-range-slider/lib/utils.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/lib/utils.js.map b/node_modules/@gilbarbara/react-range-slider/lib/utils.js.map
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/src/.DS_Store b/node_modules/@gilbarbara/react-range-slider/src/.DS_Store
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/src/index.tsx b/node_modules/@gilbarbara/react-range-slider/src/index.tsx
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/src/styles.ts b/node_modules/@gilbarbara/react-range-slider/src/styles.ts
+old mode 100644
+new mode 100755
+index dbcbaee..75e9a9e
+--- a/node_modules/@gilbarbara/react-range-slider/src/styles.ts
++++ b/node_modules/@gilbarbara/react-range-slider/src/styles.ts
+@@ -1,4 +1,4 @@
+-import * as deepmerge from 'deepmerge';
++import deepmerge from 'deepmerge';
+ import { num } from './utils';
+ 
+ import { RangeSliderStyles, RangeSliderStylesProp, RangeSliderStylesOptions } from './types';
+diff --git a/node_modules/@gilbarbara/react-range-slider/src/types.ts b/node_modules/@gilbarbara/react-range-slider/src/types.ts
+old mode 100644
+new mode 100755
+diff --git a/node_modules/@gilbarbara/react-range-slider/src/utils.ts b/node_modules/@gilbarbara/react-range-slider/src/utils.ts
+old mode 100644
+new mode 100755

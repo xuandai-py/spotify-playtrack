@@ -1,19 +1,21 @@
+import { Box, Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 
-const TrackSearchResult = ({ track, chooseTrack }) => {
-    
+const TrackSearchResult = ({ track, playTrack }) => {
+
     const playTrackHandle = () => {
-        chooseTrack(track)
+        playTrack(track)
     }
+
     return (
-        
-        <div className="d-flex m-2 align-items-center" style={{ cursor: "pointer" }} onClick={playTrackHandle}>
-            <img src={track.albumUrl} style={{ height: "64px", width: "64px" }} />
-            <div className="ms-3">
-                <div>{track.title}</div>
-                <div className="text-muted">{track.artist}</div>
-            </div>
-        </div>
+
+        <Flex alignItems='center' m='2' cursor='pointer' onClick={playTrackHandle}>
+            <Image src={track.albumUrl} style={{ height: "64px", width: "64px" }} />
+            <Box marginLeft='3'>
+                <Text>{track.title}</Text>
+                <Text className="text-muted">{track.artist}</Text>
+            </Box>
+        </Flex>
     )
 }
 
